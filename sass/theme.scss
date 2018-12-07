@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import "./index";
+
+// Set your brand colors
+$orange: rgb(247, 96, 9);
+
+// Update Bulma's global variables
+$primary: $orange;
+$link: $orange; 
+ 
+// Update some of Bulma's component variables
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/_all.sass";
+@import "../node_modules/bulma/sass/components/_all.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";
